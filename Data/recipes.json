@@ -1,0 +1,3250 @@
+{
+	"Limestone":
+		{
+			"name": "Limestone",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["Limestone",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"IronOre":
+		{
+			"name": "IronOre",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["IronOre",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"CopperOre":
+		{
+			"name": "CopperOre",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["CopperOre",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"CateriumOre":
+		{
+			"name": "CateriumOre",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["CateriumOre",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"CoalOre":
+		{
+			"name": "CoalOre",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["CoalOre",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"RawQuartz":
+		{
+			"name": "RawQuartz",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["QuartzOre",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"SulfurOre":
+		{
+			"name": "SulfurOre",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["SulfurOre",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"Bauxite":
+		{
+			"name": "Bauxite",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["Bauxite",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"SAMOre":
+		{
+			"name": "S.A.M Ore",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["SAMOre",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UraniumOre":
+		{
+			"name": "UraniumOre",
+			"factory": "MinerMk1",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["UraniumOre",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"Water":
+		{
+			"name": "Water",
+			"factory": "WaterExtractor",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["Water",120]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"WaterWE":
+		{
+			"name": "Water (Resource Well Extractor)",
+			"factory": "ResourceWellExtractor",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["Water",120]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CrudeOil":
+		{
+			"name": "Crude Oil",
+			"factory": "OilExtractor",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["CrudeOil",240]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"CrudeOilWE":
+		{
+			"name": "Crude Oil (Resource Well Extractor)",
+			"factory": "ResourceWellExtractor",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["CrudeOil",120]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"NitrogenGas":
+		{
+			"name": "Nitrogen Gas",
+			"factory": "ResourceWellExtractor",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["NitrogenGas",120]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"IronIngot":
+		{
+			"name": "Iron Ingot",
+			"factory": "Smelter",
+			"inputs": {
+				"input1": ["IronOre",30]
+			},
+			"outputs": {
+				"output1": ["IronIngot",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CopperIngot":
+		{
+			"name": "Copper Ingot",
+			"factory": "Smelter",
+			"inputs": {
+				"input1": ["CopperOre",30]
+			},
+			"outputs": {
+				"output1": ["CopperIngot",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CateriumIngot":
+		{
+			"name": "Caterium Ingot",
+			"factory": "Smelter",
+			"inputs": {
+				"input1": ["CateriumOre",30]
+			},
+			"outputs": {
+				"output1": ["CateriumIngot",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"SteelIngot":
+		{
+			"name": "Steel Ingot",
+			"factory": "Foundry",
+			"inputs": {
+				"input1": ["IronOre",45],
+				"input2": ["CoalOre",45]
+			},
+			"outputs": {
+				"output1": ["SteelIngot",45]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"AluminiumIngot":
+		{
+			"name": "Aluminium Ingot",
+			"factory": "Foundry",
+			"inputs": {
+				"input1": ["AluminiumScrap",90],
+				"input2": ["Silica",75]
+			},
+			"outputs": {
+				"output1": ["AluminiumIngot",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Concrete":
+		{
+			"name": "Concrete",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["Limestone",45]
+			},
+			"outputs": {
+				"output1": ["Concrete",15]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"QuartzCrystal":
+		{
+			"name": "Quartz Crystals",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["QuartzOre",37.5]
+			},
+			"outputs": {
+				"output1": ["QuartzCrystal",22.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Silica":
+		{
+			"name": "Silica",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["QuartzOre",22.5]
+			},
+			"outputs": {
+				"output1": ["Silica",37.5]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"CopperPowder":
+		{
+			"name": "Copper Powder",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["CopperIngot",300]
+			},
+			"outputs": {
+				"output1": ["CopperPowder",50]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PetroleumCoke":
+		{
+			"name": "Petroleum Coke",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["HeavyOil",40]
+			},
+			"outputs": {
+				"output1": ["PetroleumCoke",120]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Aluminium Scrap":
+		{
+			"name": "Aluminium Scrap",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Alumina",240],
+				"input2": ["CoalOre",120]
+			},
+			"outputs": {
+				"output1": ["AluminiumScrap",360],
+				"output2": ["Water",120]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"LiquidBiofuel":
+		{
+			"name": "Liquid Biofuel",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["SolidBiofuel",90],
+				"input2": ["Water",45]
+			},
+			"outputs": {
+				"output1": ["LiquidBiofuel",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"Fuel":
+		{
+			"name": "Fuel",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CrudeOil",60]
+			},
+			"outputs": {
+				"output1": ["Fuel",40],
+				"output2": ["PolymerResin",30]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"Turbofuel":
+		{
+			"name": "Turbofuel",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Fuel",22.5],
+				"input2": ["CompactedCoal",15]
+			},
+			"outputs": {
+				"output1": ["Turbofuel",18.75]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": true
+		},
+	"Alumina":
+		{
+			"name": "Alumina Solution",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Bauxite",120],
+				"input2": ["Water",180]
+			},
+			"outputs": {
+				"output1": ["Alumina",18.75],
+				"output2": ["Silica",50]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"SulfuricAcid":
+		{
+			"name": "Sulfuric Acid",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["SulfurOre",50],
+				"input2": ["Water",50]
+			},
+			"outputs": {
+				"output1": ["SulfuricAcid",50]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"NitricAcid":
+		{
+			"name": "Nitric Acid",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["NitrogenGas",120],
+				"input2": ["Water",30],
+				"input3": ["IronPlate",10]
+			},
+			"outputs": {
+				"output1": ["NitricAcid",30]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"IronRod":
+		{
+			"name": "Iron Rod",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["IronIngot",15]
+			},
+			"outputs": {
+				"output1": ["IronRod",15]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Screws":
+		{
+			"name": "Screws",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["IronRod",10]
+			},
+			"outputs": {
+				"output1": ["Screws",40]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"IronPlate":
+		{
+			"name": "Iron Plate",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["IronIngot",30]
+			},
+			"outputs": {
+				"output1": ["IronPlate",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"ReinforcedIronPlate":
+		{
+			"name": "Reinforced Iron Plate",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["IronPlate",30],
+				"input2": ["Screws",60]
+			},
+			"outputs": {
+				"output1": ["ReinforcedIronPlate",5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CopperSheet":
+		{
+			"name": "Copper Sheet",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["CopperIngot",20]
+			},
+			"outputs": {
+				"output1": ["CopperSheet",10]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"AluminiumSheet":
+		{
+			"name": "Alclad Aluminium Sheet",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["AluminiumIngot",30],
+				"input2": ["CopperIngot",10]
+			},
+			"outputs": {
+				"output1": ["AluminiumSheet",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"AluminiumCasing":
+		{
+			"name": "Aluminium Casing",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["AluminiumIngot",90]
+			},
+			"outputs": {
+				"output1": ["AluminiumCasing",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"SteelPipe":
+		{
+			"name": "Steel Pipe",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["SteelIngot",30]
+			},
+			"outputs": {
+				"output1": ["SteelPipe",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"SteelBeam":
+		{
+			"name": "Steel Beam",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["SteelIngot",60]
+			},
+			"outputs": {
+				"output1": ["SteelBeam",15]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"EncasedIndustrialBeam":
+		{
+			"name": "Encased Industrial Beam",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["SteelIngot",24],
+				"input2": ["Concrete",30]
+			},
+			"outputs": {
+				"output1": ["EncasedIndustrialBeam",6]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"ModularFrame":
+		{
+			"name": "Modular Frame",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["ReinforcedIronPlate",3],
+				"input2": ["IronRod",12]
+			},
+			"outputs": {
+				"output1": ["ModularFrame",2]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"HeavyModularFrame":
+		{
+			"name": "Heavy Modular Frame",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["ModularFrame",10],
+				"input2": ["SteelPipe",30],
+				"input3": ["EncasedIndustrialBeam",10],
+				"input4": ["Screws",200]
+			},
+			"outputs": {
+				"output1": ["HeavyModularFrame",2]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"FusedModularFrame":
+		{
+			"name": "Fused Modular Frame",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["HeavyModularFrame",1.5],
+				"input2": ["AluminiumCasing",75],
+				"input3": ["NitrogenGas",37.5]
+			},
+			"outputs": {
+				"output1": ["FusedModularFrame",1.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Fabric":
+		{
+			"name": "Fabric",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Mycelia",15],
+				"input2": ["Biomass",75]
+			},
+			"outputs": {
+				"output1": ["Fabric",15]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PlasticCrude":
+		{
+			"name": "Plastic (Crude)",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CrudeOil",30]
+			},
+			"outputs": {
+				"output1": ["Plastic",20],
+				"output2": ["HeavyOil",10]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PlasticPolymer":
+		{
+			"name": "Plastic (Polymer)",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["PolymerResin",60],
+				"input2": ["Water",20]
+			},
+			"outputs": {
+				"output1": ["Plastic",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"RubberCrude":
+		{
+			"name": "Rubber (Crude)",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CrudeOil",30]
+			},
+			"outputs": {
+				"output1": ["Rubber",20],
+				"output2": ["HeavyOil",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"RubberPolymer":
+		{
+			"name": "Rubber (Polymer)",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["PolymerResin",40],
+				"input2": ["Water",40]
+			},
+			"outputs": {
+				"output1": ["Rubber",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Rotor":
+		{
+			"name": "Rotor",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["IronRod",20],
+				"input2": ["Screws",100]
+			},
+			"outputs": {
+				"output1": ["Rotor",4]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Stator":
+		{
+			"name": "Stator",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["SteelPipe",15],
+				"input2": ["Wire",40]
+			},
+			"outputs": {
+				"output1": ["Stator",5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Battery":
+		{
+			"name": "Battery",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["AluminiumCasing",20],
+				"input2": ["Alumina",40],
+				"input3": ["SulfuricAcid",50]
+			},
+			"outputs": {
+				"output1": ["Battery",20],
+				"output2": ["Water",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Motor":
+		{
+			"name": "Motor",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Rotor",10],
+				"input2": ["Stator",10]
+			},
+			"outputs": {
+				"output1": ["Motor",5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"HeatSink":
+		{
+			"name": "Heat Sink",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["AluminiumSheet",37.5],
+				"input2": ["CopperSheet",22.5]
+			},
+			"outputs": {
+				"output1": ["HeatSink",7.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CoolingSystem":
+		{
+			"name": "Cooling System",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["HeatSink",12],
+				"input2": ["Rubber",12],
+				"input3": ["Water",30],
+				"input4": ["NitrogenGas",150]
+			},
+			"outputs": {
+				"output1": ["CoolingSystem",6]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"TurboMotor":
+		{
+			"name": "Turbo Motor",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["CoolingSystem",7.5],
+				"input2": ["RadioControlUnit",3.75],
+				"input3": ["Motor",7.5],
+				"input4": ["Rubber",45]
+			},
+			"outputs": {
+				"output1": ["TurboMotor",1.875]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Wire":
+		{
+			"name": "Wire",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["CopperIngot",15]
+			},
+			"outputs": {
+				"output1": ["Wire",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Cable":
+		{
+			"name": "Cable",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["Wire",60]
+			},
+			"outputs": {
+				"output1": ["Cable",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Quickwire":
+		{
+			"name": "Quickwire",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["CateriumIngot",12]
+			},
+			"outputs": {
+				"output1": ["Quickwire",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CircuitBoard":
+		{
+			"name": "CircuitBoard",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CopperSheet",15],
+				"input2": ["Plastic",30]
+			},
+			"outputs": {
+				"output1": ["CircuitBoard",7.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"AILimiter":
+		{
+			"name": "AI Limiter",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CopperSheet",25],
+				"input2": ["Quickwire",100]
+			},
+			"outputs": {
+				"output1": ["AILimiter",5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"HighSpeedConnector":
+		{
+			"name": "High-Speed Connector",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Quickwire",210],
+				"input2": ["Cable",37.5],
+				"input3": ["CircuitBoard",3.75]
+			},
+			"outputs": {
+				"output1": ["HighSpeedConnector",3.75]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Computer":
+		{
+			"name": "Computer",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["CircuitBoard",25],
+				"input2": ["Cable",22.5],
+				"input3": ["Plastic",45],
+				"input4": ["Screws",130]
+			},
+			"outputs": {
+				"output1": ["Computer",2.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Supercomputer":
+		{
+			"name": "Supercomputer",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Computer",3.75],
+				"input2": ["AILimiter",3.75],
+				"input3": ["HighSpeedConnector",5.63],
+				"input4": ["Plastic",52.5]
+			},
+			"outputs": {
+				"output1": ["Supercomputer",1.88]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"RadioControlUnit":
+		{
+			"name": "Radio Control Unit",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["AluminiumCasing",40],
+				"input2": ["CrystalOscillator",1.25],
+				"input3": ["Computer",1.25]
+			},
+			"outputs": {
+				"output1": ["RadioControlUnit",2.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CrystalOscillator":
+		{
+			"name": "Crystal Oscillator",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["QuartzCrystal",18],
+				"input2": ["Cable",14],
+				"input3": ["ReinforcedIronPlate",2.5]
+			},
+			"outputs": {
+				"output1": ["CrystalOscillator",1]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"EmptyCanister":
+		{
+			"name": "Empty Canister",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["Plastic",30]
+			},
+			"outputs": {
+				"output1": ["EmptyCanister",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"UnpackageAluminaSolution":
+		{
+			"name": "Unpackage Alumina Solution",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedAluminaSolution",120]
+			},
+			"outputs": {
+				"output1": ["Alumina",120],
+				"output2": ["EmptyCanister",120]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageFuel":
+		{
+			"name": "Unpackage Fuel",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedFuel",60]
+			},
+			"outputs": {
+				"output1": ["Fuel",60],
+				"output2": ["EmptyCanister",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageHeavyOil":
+		{
+			"name": "Unpackage Heavy Oil Residue",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedHeavyOil",20]
+			},
+			"outputs": {
+				"output1": ["HeavyOil",20],
+				"output2": ["EmptyCanister",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageLiquidBiofuel":
+		{
+			"name": "Unpackage Liquid Biofuel",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedLiquidBiofuel",60]
+			},
+			"outputs": {
+				"output1": ["LiquidBiofuel",60],
+				"output2": ["EmptyCanister",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageOil":
+		{
+			"name": "Unpackage Oil",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedOil",60]
+			},
+			"outputs": {
+				"output1": ["Oil",60],
+				"output2": ["EmptyCanister",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageSulfuricAcid":
+		{
+			"name": "Unpackage Sulfuric Acid",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedSulfuricAcid",60]
+			},
+			"outputs": {
+				"output1": ["SulfuricAcid",60],
+				"output2": ["EmptyCanister",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageTurbofuel":
+		{
+			"name": "Unpackage Turbofuel",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedTurbofuel",20]
+			},
+			"outputs": {
+				"output1": ["Fuel",20],
+				"output2": ["EmptyCanister",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageWater":
+		{
+			"name": "Unpackage Water",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedWater",120]
+			},
+			"outputs": {
+				"output1": ["Fuel",120],
+				"output2": ["EmptyCanister",120]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackageNitricAcid":
+		{
+			"name": "Unpackage Nitric Acid",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedNitricAcid",20]
+			},
+			"outputs": {
+				"output1": ["NitricAcid",20],
+				"output2": ["EmptyFluidTank",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UnpackagedNitrogenGas":
+		{
+			"name": "Unpackage Nitrogen Gas",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["PackagedNitrogenGas",60]
+			},
+			"outputs": {
+				"output1": ["NitrogenGas",240],
+				"output2": ["EmptyFluidTank",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"EmptyFluidTank":
+		{
+			"name": "Empty Fluid Tank",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["AluminiumIngot",60]
+			},
+			"outputs": {
+				"output1": ["EmptyFluidTank",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"BiomassLeaves":
+		{
+			"name": "Biomass (Leaves)",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["Leaves",120]
+			},
+			"outputs": {
+				"output1": ["Biomass",60]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"BiomassMycelia":
+		{
+			"name": "Biomass (Mycelia)",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["Mycelia",150]
+			},
+			"outputs": {
+				"output1": ["Biomass",150]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"BiomassWood":
+		{
+			"name": "Biomass (Wood)",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["Wood",60]
+			},
+			"outputs": {
+				"output1": ["Biomass",300]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PressureConversionCube":
+		{
+			"name": "Pressure Conversion Cube",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["FusedModularFrame",1],
+				"input2": ["RadioControlUnit",2]
+			},
+			"outputs": {
+				"output1": ["PressureConversionCube",1]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"CompactedCoal":
+		{
+			"name": "Compacted Coal",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CoalOre",25],
+				"input2": ["SulfurOre",25]
+			},
+			"outputs": {
+				"output1": ["CompactedCoal",25]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": true
+		},
+	"PackagedOil":
+		{
+			"name": "Packaged Oil",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["CrudeOil",30],
+				"input2": ["EmptyCanister",30]
+			},
+			"outputs": {
+				"output1": ["PackagedOil",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedHeavyOil":
+		{
+			"name": "Packaged Heavy Oil Residue",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["HeavyOil",30],
+				"input2": ["EmptyCanister",30]
+			},
+			"outputs": {
+				"output1": ["PackagedHeavyOil",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedFuel":
+		{
+			"name": "Packaged Fuel",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["Fuel",40],
+				"input2": ["EmptyCanister",40]
+			},
+			"outputs": {
+				"output1": ["PackagedFuel",40]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedLiquidBiofuel":
+		{
+			"name": "Packaged Liquid Biofuel",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["LiquidBiofuel",40],
+				"input2": ["EmptyCanister",40]
+			},
+			"outputs": {
+				"output1": ["PackagedLiquidBiofuel",40]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedTurbofuel":
+		{
+			"name": "Packaged Turbofuel",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["Turbofuel",20],
+				"input2": ["EmptyCanister",20]
+			},
+			"outputs": {
+				"output1": ["PackagedTurbofuel",20]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedNitricAcid":
+		{
+			"name": "Packaged Nitric Acid",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["NitricAcid",30],
+				"input2": ["EmptyFluidTank",30]
+			},
+			"outputs": {
+				"output1": ["PackagedNitricAcid",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedWater":
+		{
+			"name": "Packaged Nitric Acid",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["Water",60],
+				"input2": ["EmptyCanister",60]
+			},
+			"outputs": {
+				"output1": ["PackagedWater",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedAlumina":
+		{
+			"name": "Packaged Alumina Solution",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["Alumina",120],
+				"input2": ["EmptyCanister",120]
+			},
+			"outputs": {
+				"output1": ["PackagedAlumina",120]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedNitrogenGas":
+		{
+			"name": "Packaged Nitrogen Gas",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["NitrogenGas",240],
+				"input2": ["EmptyFluidTank",60]
+			},
+			"outputs": {
+				"output1": ["PackagedNitrogenGas",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PackagedSulfuricAcid":
+		{
+			"name": "Packaged Sulfuric Acid",
+			"factory": "Packager",
+			"inputs": {
+				"input1": ["SulfuricAcid",40],
+				"input2": ["EmptyCanister",40]
+			},
+			"outputs": {
+				"output1": ["PackagedSulfuricAcid",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"SolidBiofuel":
+		{
+			"name": "Solid Biofuel",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["Biomass",120]
+			},
+			"outputs": {
+				"output1": ["SolidBiofuel",60]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UraniumFuelRod":
+		{
+			"name": "Uranium Fuel rod",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["EncasedUraniumCell",20],
+				"input2": ["EncasedIndustrialBeam",1.2],
+				"input3": ["ElectromagneticControlRod",2]
+			},
+			"outputs": {
+				"output1": ["UraniumFuelRod",0.4]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PlutoniumFuelRod":
+		{
+			"name": "Plutonium Fuel rod",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["EncasedPlutoniumCell",20],
+				"input2": ["SteelBeam",1.2],
+				"input3": ["ElectromagneticControlRod",2],
+				"input4": ["HeatSink",0.25]
+			},
+			"outputs": {
+				"output1": ["PlutoniumFuelRod",0.25]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"BlackPowder":
+		{
+			"name": "Black Powder",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CoalOre",7.5],
+				"input2": ["SulfurOre",15]
+			},
+			"outputs": {
+				"output1": ["BlackPowder",7.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"Nobelisk":
+		{
+			"name": "Nobelisk",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["BlackPowder",15],
+				"input2": ["SteelPipe",30]
+			},
+			"outputs": {
+				"output1": ["Nobelisk",3]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"GasFilter":
+		{
+			"name": "Gas Filter",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["CoalOre",37.5],
+				"input2": ["Rubber",15],
+				"input3": ["Fabric",15]
+			},
+			"outputs": {
+				"output1": ["GasFilter",7.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"ColorCartridge":
+		{
+			"name": "Color Cartridge",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["FlowerPetals",37.5]
+			},
+			"outputs": {
+				"output1": ["ColorCartridge",75]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"RifleCartridge":
+		{
+			"name": "Rifle Cartidge",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Beacon",3],
+				"input2": ["SteelPipe",30],
+				"input3": ["BlackPowder",30],
+				"input4": ["Rubber",30]
+			},
+			"outputs": {
+				"output1": ["RifleCartridge",15]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"SpikedRebar":
+		{
+			"name": "Spiked Rebar",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["IronRod",15]
+			},
+			"outputs": {
+				"output1": ["SpikedRebar",15]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"HazmatFilter":
+		{
+			"name": "Iodine Infused Filter",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["GasFilter",3.75],
+				"input2": ["Quickwire",30],
+				"input3": ["AluminiumCasing",3.75]
+			},
+			"outputs": {
+				"output1": ["HazmatFilter",3.75]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"ElectromagneticControlRod":
+		{
+			"name": "Electromagnetic Control Rod",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Stator",6],
+				"input2": ["AILimiter",4]
+			},
+			"outputs": {
+				"output1": ["ElectromagneticControlRod",4]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"EncasedUraniumCell":
+		{
+			"name": "Encased Uranium Cell",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["UraniumOre",50],
+				"input2": ["Concrete",15],
+				"input3": ["SulfuricAcid",40]
+			},
+			"outputs": {
+				"output1": ["EncasedUraniumCell",25],
+				"output2": ["SulfuricAcid",10]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"NonFissileUranium":
+		{
+			"name": "Non-fissile Uranium",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["UraniumWaste",37.5],
+				"input2": ["Silica",25],
+				"input3": ["NitricAcid",15],
+				"input4": ["SulfuricAcid",15]
+			},
+			"outputs": {
+				"output1": ["NonFissileUranium",50],
+				"output2": ["Water",15]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PlutoniumPellet":
+		{
+			"name": "Plutonium Pellet",
+			"factory": "ParticleAccelerator",
+			"inputs": {
+				"input1": ["NonFissileUranium",100],
+				"input2": ["UraniumWaste",25]
+			},
+			"outputs": {
+				"output1": ["PlutoniumPellet",30]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"EncasedPlutoniumCell":
+		{
+			"name": "Encased Plutonium Cell",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["PlutoniumPellet",10],
+				"input2": ["Concrete",20]
+			},
+			"outputs": {
+				"output1": ["EncasedPlutoniumCell",5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"UraniumWaste":
+		{
+			"name": "Uranium Waste",
+			"factory": "NuclearPowerPlant",
+			"inputs": {
+				"input1": ["UraniumFuelRod",0.2]
+			},
+			"outputs": {
+				"output1": ["UraniumWaste",10]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"PlutoniumWaste":
+		{
+			"name": "Plutonium Waste",
+			"factory": "NuclearPowerPlant",
+			"inputs": {
+				"input1": ["PlutoniumFuelRod",0.1]
+			},
+			"outputs": {
+				"output1": ["PlutoniumWaste",1]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"PowerShardBlue":
+		{
+			"name": "Power Shard (1)",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["BluePowerSlug",7.5]
+			},
+			"outputs": {
+				"output1": ["PowerShard",7.5]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"PowerShardYellow":
+		{
+			"name": "Power Shard (2)",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["YellowPowerSlug",5]
+			},
+			"outputs": {
+				"output1": ["PowerShard",10]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PowerShardPurple":
+		{
+			"name": "Power Shard (5)",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["PurplePowerSlug",2.5]
+			},
+			"outputs": {
+				"output1": ["PowerShard",12.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"SmartPlating":
+		{
+			"name": "Smart Plating",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["ReinforcedIronPlate",2],
+				"input2": ["Rotor",2]
+			},
+			"outputs": {
+				"output1": ["SmartPlating",2]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"PlasticSmartPlating":
+		{
+			"name": "Plastic Smart Plating",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["ReinforcedIronPlate",2.5],
+				"input2": ["Rotor",2.5],
+				"input3": ["Plastic",7.5]
+			},
+			"outputs": {
+				"output1": ["SmartPlating",5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"VersatileFramework":
+		{
+			"name": "Versatile Framework",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["ModularFrame",2.5],
+				"input2": ["SteelBeam",30]
+			},
+			"outputs": {
+				"output1": ["VersatileFramework",2]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"FlexibleFramework":
+		{
+			"name": "Flexible Framework",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["ModularFrame",3.75],
+				"input2": ["SteelBeam",22.5],
+				"input3": ["Rubber",30]
+			},
+			"outputs": {
+				"output1": ["VersatileFramework",7.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"AutomatedWiring":
+		{
+			"name": "Automated Wiring",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Stator",2.5],
+				"input2": ["Cable",50]
+			},
+			"outputs": {
+				"output1": ["AutomatedWiring",2.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"AutomatedSpeedWiring":
+		{
+			"name": "Automated Speed Wiring",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Stator",3.75],
+				"input2": ["Wire",75],
+				"input3": ["HighSpeedConnector",1.88]
+			},
+			"outputs": {
+				"output1": ["AutomatedWiring",2.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"ModularEngine":
+		{
+			"name": "Modular Engine",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Motor",2],
+				"input2": ["Rubber",15],
+				"input3": ["SmartPlating",2]
+			},
+			"outputs": {
+				"output1": ["ModularEngine",1]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"AdaptiveControlUnit":
+		{
+			"name": "Adaptive Control Unit",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["AutomatedWiring",7.5],
+				"input2": ["CircuitBoard",5],
+				"input3": ["HeavyModularFrame",1],
+				"input4": ["Computer",1]
+			},
+			"outputs": {
+				"output1": ["AdaptiveControlUnit",1]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"AssemblyDirectorSystem":
+		{
+			"name": "Assembly Director System",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["AdaptiveControlUnit",1.5],
+				"input2": ["Supercomputer",0.75]
+			},
+			"outputs": {
+				"output1": ["AssemblyDirectorSystem",0.75]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"MagneticFieldGenerator":
+		{
+			"name": "Magnetic Field Generator",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["VersatileFramework",2.5],
+				"input2": ["ElectromagneticControlRod",1],
+				"input3": ["Battery",5]
+			},
+			"outputs": {
+				"output1": ["MagneticFieldGenerator",1]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"ThermalPropulsionRocket":
+		{
+			"name": "hermal Propulsion Rocket",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["ModularEngine",2.5],
+				"input2": ["TurboMotor",1],
+				"input3": ["CoolingSystem",3],
+				"input4": ["FusedModularFrame",1]
+			},
+			"outputs": {
+				"output1": ["ThermalPropulsionRocket",1]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"NuclearPasta":
+		{
+			"name": "Nuclear Pasta",
+			"factory": "ParticleAccelerator",
+			"inputs": {
+				"input1": ["CopperPowder",100],
+				"input2": ["PressureConversionCube",0.5]
+			},
+			"outputs": {
+				"output1": ["NuclearPasta",0.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		},
+	"IronAlloyIngot":
+		{
+			"name": "Iron Alloy Ingot",
+			"factory": "Foundry",
+			"inputs": {
+				"input1": ["IronOre",20],
+				"input2": ["CopperOre",20]
+			},
+			"outputs": {
+				"output1": ["IronIngot",50]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PureIronIngot":
+		{
+			"name": "Pure Iron Ingot",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["IronOre",35],
+				"input2": ["Water",20]
+			},
+			"outputs": {
+				"output1": ["IronIngot",65]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CopperAlloyIngot":
+		{
+			"name": "Copper Alloy Ingot",
+			"factory": "Foundry",
+			"inputs": {
+				"input1": ["CopperOre",50],
+				"input2": ["IronOre",25]
+			},
+			"outputs": {
+				"output1": ["IronIngot",100]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PureCopperIngot":
+		{
+			"name": "Pure Copper Ingot",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CopperOre",15],
+				"input2": ["Water",10]
+			},
+			"outputs": {
+				"output1": ["IronIngot",37.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PureCateriumIngot":
+		{
+			"name": "Pure Caterium Ingot",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CateriumOre",24],
+				"input2": ["Water",24]
+			},
+			"outputs": {
+				"output1": ["IronIngot",12]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CokeSteelIngot":
+		{
+			"name": "Coke Steel Ingot",
+			"factory": "Foundry",
+			"inputs": {
+				"input1": ["IronOre",75],
+				"input2": ["PetroleumCoke",75]
+			},
+			"outputs": {
+				"output1": ["SteelIngot",100]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CompactedSteelIngot":
+		{
+			"name": "Compacted Steel Ingot",
+			"factory": "Foundry",
+			"inputs": {
+				"input1": ["IronOre",22.5],
+				"input2": ["CompactedCoal",11.25]
+			},
+			"outputs": {
+				"output1": ["SteelIngot",37.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SolidSteelIngot":
+		{
+			"name": "Solid Steel Ingot",
+			"factory": "Foundry",
+			"inputs": {
+				"input1": ["IronIngot",40],
+				"input2": ["Coal",40]
+			},
+			"outputs": {
+				"output1": ["SteelIngot",60]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PureAluminiumIngot":
+		{
+			"name": "Pure Aluminium Ingot",
+			"factory": "Smelter",
+			"inputs": {
+				"input1": ["AluminiumScrap",60]
+			},
+			"outputs": {
+				"output1": ["AluminiumIngot",30]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"FineConcrete":
+		{
+			"name": "Fine Concrete",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Silica",7.5],
+				"input2": ["Limestone",30]
+			},
+			"outputs": {
+				"output1": ["Concrete",25]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"RubberConcrete":
+		{
+			"name": "Rubber Concrete",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Limestone",50],
+				"input2": ["Rubber",10]
+			},
+			"outputs": {
+				"output1": ["Concrete",45]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"WetConcrete":
+		{
+			"name": "Wet Concrete",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Limestone",120],
+				"input2": ["Water",100]
+			},
+			"outputs": {
+				"output1": ["Concrete",80]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PureQuartzCrystal":
+		{
+			"name": "Pure Quartz Crystal",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["QuartzOre",67.5],
+				"input2": ["Water",37.5]
+			},
+			"outputs": {
+				"output1": ["QuartzCrystal",52.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CheapSilica":
+		{
+			"name": "CheapSilica",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["QuartzOre",11.25],
+				"input2": ["Limestone",18.75]
+			},
+			"outputs": {
+				"output1": ["Silica",26.25]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"HeavyOilResidue":
+		{
+			"name": "Heavy Oil Residue",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CrudeOil",30]
+			},
+			"outputs": {
+				"output1": ["HeavyOil",40],
+				"output2": ["PolymerResin",20]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PolymerResin":
+		{
+			"name": "PolymerResin",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CrudeOil",60]
+			},
+			"outputs": {
+				"output1": ["PolymerResin",130],
+				"output2": ["HeavyOil",20]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"ElectrodeAluminiumScrap":
+		{
+			"name": "Electrode - Aluminium Scrap",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Alumina",180],
+				"input2": ["PetroleumCoke",60]
+			},
+			"outputs": {
+				"output1": ["AluminiumScrap",300],
+				"output2": ["Water",105]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"InstantScrap":
+		{
+			"name": "Instant Scrap",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["Bauxite",150],
+				"input2": ["Coal",10],
+				"input3": ["SulfuricAcid",50],
+				"input4": ["Water",60]
+			},
+			"outputs": {
+				"output1": ["AluminiumScrap",300],
+				"output2": ["Water",50]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"DilutedFuel":
+		{
+			"name": "Diluted Fuel",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["HeavyOil",50],
+				"input2": ["Water",100]
+			},
+			"outputs": {
+				"output1": ["Fuel",100]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"TurboBlendFuel":
+		{
+			"name": "Turbo Blend Fuel",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["Fuel",15],
+				"input2": ["HeavyOil",30],
+				"input3": ["SulfurOre",22.5],
+				"input4": ["PetroleumCoke",22.5]
+			},
+			"outputs": {
+				"output1": ["Turbofuel",45]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"TurboHeavyFuel":
+		{
+			"name": "Turbo Heavy Fuel",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["HeavyOil",37.5],
+				"input2": ["CompactedCoal",30]
+			},
+			"outputs": {
+				"output1": ["Turbofuel",30]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SloppyAlumina":
+		{
+			"name": "Sloppy Alumina",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Bauxite",200],
+				"input2": ["Water",200]
+			},
+			"outputs": {
+				"output1": ["Alumina",240]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SteelRod":
+		{
+			"name": "Steel Rod",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["SteelIngot",12]
+			},
+			"outputs": {
+				"output1": ["IronRod",48]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CastScrew":
+		{
+			"name": "Cast Screw",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["IronIngot",12.5]
+			},
+			"outputs": {
+				"output1": ["Screws",50]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SteelScrew":
+		{
+			"name": "Steel Screw",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["SteelBeam",5]
+			},
+			"outputs": {
+				"output1": ["Screws",260]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CoatedIronPlate":
+		{
+			"name": "Coated Iron Plate",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["IronIngot",50],
+				"input2": ["Plastic",10]
+			},
+			"outputs": {
+				"output1": ["IronPlate",75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SteelCoatedPlate":
+		{
+			"name": "Steel Coated Plate",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["SteelIngot",7.5],
+				"input2": ["Plastic",5]
+			},
+			"outputs": {
+				"output1": ["IronPlate",45]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"AdheredIronPlate":
+		{
+			"name": "Adhered Iron Plate",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["IronPlate",11.25],
+				"input2": ["Rubber",3.75]
+			},
+			"outputs": {
+				"output1": ["ReinforcedIronPlate",3.75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"BoltedIronPlate":
+		{
+			"name": "Bolted Iron Plate",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["IronPlate",90],
+				"input2": ["Scews",250]
+			},
+			"outputs": {
+				"output1": ["ReinforcedIronPlate",15]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"StitchedIronPlate":
+		{
+			"name": "Stitched Iron Plate",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["IronPlate",18.75],
+				"input2": ["Wire",37.5]
+			},
+			"outputs": {
+				"output1": ["ReinforcedIronPlate",5.63]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SteamedCopperSheet":
+		{
+			"name": "Steamed Copper Sheet",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["CopperIngot",22.5],
+				"input2": ["Water",22.5]
+			},
+			"outputs": {
+				"output1": ["CopperSheet",22.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"AlcladCasing":
+		{
+			"name": "Alclad Casing",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["AluminiumIngot",150],
+				"input2": ["CopperIngot",75]
+			},
+			"outputs": {
+				"output1": ["AluminiumSheet",112.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"EncasedIndustrialPipe":
+		{
+			"name": "EncasedIndustrialPipe",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["SteelPipe",28],
+				"input2": ["Concrete",20]
+			},
+			"outputs": {
+				"output1": ["EncasedIndustrialBeam",4]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"BoltedFrame":
+		{
+			"name": "Bolted Frame",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["ReinforcedPlate",7.5],
+				"input2": ["Screws",140]
+			},
+			"outputs": {
+				"output1": ["ModularFrame",5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SteeledFrame":
+		{
+			"name": "Steeled Frame",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["ReinforcedPlate",2],
+				"input2": ["SteelPipe",10]
+			},
+			"outputs": {
+				"output1": ["ModularFrame",3]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"HeavyEncasedFrame":
+		{
+			"name": "Heavy Encased Frame",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["ModularFrame",7.5],
+				"input2": ["EncasedIndustrialBeam",9.38],
+				"input3": ["SteelPipe",33.75],
+				"input4": ["Concrete",20.63]
+			},
+			"outputs": {
+				"output1": ["HeavyModularFrame",2.81]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"HeavyFlexibleFrame":
+		{
+			"name": "Heavy Flexible Frame",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["ModularFrame",18.75],
+				"input2": ["EncasedIndustrialBeam",11.25],
+				"input3": ["Rubber",75],
+				"input4": ["Screws",390]
+			},
+			"outputs": {
+				"output1": ["HeavyModularFrame",3.75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"HeatFusedFrame":
+		{
+			"name": "Heat-Fused Frame",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["HeavyModularFrame",3],
+				"input2": ["AluminiumIngot",150],
+				"input3": ["NitricAcid",24],
+				"input4": ["Fuel",30]
+			},
+			"outputs": {
+				"output1": ["FusedModularFrame",3]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PolyesterFabric":
+		{
+			"name": "Polyester Fabric",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["PolymerResin",80],
+				"input2": ["Water",50]
+			},
+			"outputs": {
+				"output1": ["Fabric",5]
+			},
+			"enabled": false,
+			"priority": true,
+			"alternate": true
+		},
+	"RecycledPlastic":
+		{
+			"name": "Recycled Plastic",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Rubber",30],
+				"input2": ["Fuel",30]
+			},
+			"outputs": {
+				"output1": ["Plastic",60]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"RecycledRubber":
+		{
+			"name": "Recycled Rubber",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Plastic",30],
+				"input2": ["Fuel",30]
+			},
+			"outputs": {
+				"output1": ["Rubber",60]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CopperRotor":
+		{
+			"name": "Copper Rotor",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CopperSheet",22.5],
+				"input2": ["Screw",195]
+			},
+			"outputs": {
+				"output1": ["Rotor",11.25]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SteelRotor":
+		{
+			"name": "Steel Rotor",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["SteelPipe",10],
+				"input2": ["Wire",30]
+			},
+			"outputs": {
+				"output1": ["Rotor",5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"QuickwireStator":
+		{
+			"name": "Quickwire Stator",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["SteelPipe",16],
+				"input2": ["Quickwire",60]
+			},
+			"outputs": {
+				"output1": ["Stator",8]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"ClassicBattery":
+		{
+			"name": "Classic Battery",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["SulfurOre",45],
+				"input2": ["AluminiumSheet",52.5],
+				"input3": ["Plastic",60],
+				"input4": ["Wire",90]
+			},
+			"outputs": {
+				"output1": ["Battery",30]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"ElectricMotor":
+		{
+			"name": "Electric Motor",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["ElectromagneticControlRod",3.75],
+				"input2": ["Rotor",7.5]
+			},
+			"outputs": {
+				"output1": ["Motor",7.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"RigourMotor":
+		{
+			"name": "Rigour Motor",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Rotor",3.75],
+				"input2": ["Stator",7.5],
+				"input3": ["Crystal Oscillator",1.25]
+			},
+			"outputs": {
+				"output1": ["Motor",7.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"HeatExchanger":
+		{
+			"name": "Heat Exchanger",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["AluminiumCasing",30],
+				"input2": ["Rubber",30]
+			},
+			"outputs": {
+				"output1": ["HeatSink",10]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CoolingDevice":
+		{
+			"name": "Cooling Device",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["HeatSink",9.38],
+				"input2": ["Motor",1.88],
+				"input3": ["NitrogenGas",45]
+			},
+			"outputs": {
+				"output1": ["CoolingSystem",3.75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"TurboElectricMotor":
+		{
+			"name": "Turbo Electric Motor",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Motor",6.56],
+				"input2": ["RadioControlUnit",8.44],
+				"input3": ["ElectromagneticControlRod",4.69],
+				"input4": ["Rotor",6.56]
+			},
+			"outputs": {
+				"output1": ["TurboMotor",2.81]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"TurboPressureMotor":
+		{
+			"name": "Turbo Electric Motor",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Motor",7.5],
+				"input2": ["PressureConversionCube",1.88],
+				"input3": ["PackagedNitrogenGas",45],
+				"input4": ["Stator",15]
+			},
+			"outputs": {
+				"output1": ["TurboMotor",3.75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CateriumWire":
+		{
+			"name": "Caterium Wire",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["CateriumIngot",15]
+			},
+			"outputs": {
+				"output1": ["Wire",120]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"FusedWire":
+		{
+			"name": "Fused Wire",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CopperIngot",12],
+				"input2": ["CateriumIngot",3]
+			},
+			"outputs": {
+				"output1": ["Wire",9]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"IronWire":
+		{
+			"name": "Iron Wire",
+			"factory": "Constructor",
+			"inputs": {
+				"input1": ["IronIngot",12.5]
+			},
+			"outputs": {
+				"output1": ["Wire",22.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CoatedCable":
+		{
+			"name": "Coated Cable",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["Wire",37.5],
+				"input2": ["HeavyOil",15]
+			},
+			"outputs": {
+				"output1": ["Cable",67.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"InsulatedCable":
+		{
+			"name": "Insulated Cable",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Wire",45],
+				"input2": ["Rubber",30]
+			},
+			"outputs": {
+				"output1": ["Cable",100]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"QuickwireCable":
+		{
+			"name": "Quickwire Cable",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Quickwire",7.5],
+				"input2": ["Rubber",5]
+			},
+			"outputs": {
+				"output1": ["Cable",27.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"FusedQuickwire":
+		{
+			"name": "Fused Quickwire",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CateriumIngot",7.5],
+				"input2": ["CopperIngot",37.5]
+			},
+			"outputs": {
+				"output1": ["Quickwire",90]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CateriumCircuitBoard":
+		{
+			"name": "Caterium Circuit Board",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Plastic",12.5],
+				"input2": ["Quickwire",37.5]
+			},
+			"outputs": {
+				"output1": ["CircuitBoard",8.75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"ElectrodeCircuitBoard":
+		{
+			"name": "Electrode Circuit Board",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Rubber",30],
+				"input2": ["Petroleum",45]
+			},
+			"outputs": {
+				"output1": ["CircuitBoard",5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SiliconCircuitBoard":
+		{
+			"name": "Silicon Circuit Board",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CopperSheet",27.5],
+				"input2": ["Silica",27.5]
+			},
+			"outputs": {
+				"output1": ["CircuitBoard",12.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SiliconHighSpeedConnector":
+		{
+			"name": "SiliconHighSpeedConnector",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Quickwire",90],
+				"input2": ["Silica",37.5],
+				"input3": ["CircuitBoard",3]
+			},
+			"outputs": {
+				"output1": ["HighSpeedConnector",3]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CateriumComputer":
+		{
+			"name": "Caterium Computer",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["CircuitBoard",26.25],
+				"input2": ["Quickwire",105],
+				"input3": ["Rubber",45]
+			},
+			"outputs": {
+				"output1": ["Computer",3.75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CrystalComputer":
+		{
+			"name": "Crystal Computer",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["CircuitBoard",7.5],
+				"input2": ["CrystalOscillator",2.81]
+			},
+			"outputs": {
+				"output1": ["Computer",2.81]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"OCSupercomputer":
+		{
+			"name": "OC Supercomputer",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["RadioControlSystem",9],
+				"input2": ["CoolingSystem",9]
+			},
+			"outputs": {
+				"output1": ["Supercomputer",3]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SuperStateComputer":
+		{
+			"name": "Super State Computer",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["Computer",3.6],
+				"input2": ["ElectromagneticControlRod",2.4],
+				"input3": ["Battery",24],
+				"input4": ["Wire",54]
+			},
+			"outputs": {
+				"output1": ["Supercomputer",2.4]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"RadioConnectionUnit":
+		{
+			"name": "Radio Connection Unit",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["HeatSink",15],
+				"input2": ["HighSpeedConnector",7.5],
+				"input3": ["QuartzCrystal",45]
+			},
+			"outputs": {
+				"output1": ["RadioControlUnit",3.75]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"RadioControlSystem":
+		{
+			"name": "Radio Control System",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["CrystalOscillator",1.5],
+				"input2": ["CircuitBoard",15],
+				"input3": ["AluminiumCasing",90],
+				"input4": ["Rubber",45]
+			},
+			"outputs": {
+				"output1": ["RadioControlUnit",4.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"InsulatedCrystalOscillator":
+		{
+			"name": "InsulatedCrystalOscillator",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["QuartzCrystal",18.75],
+				"input2": ["Rubber",13.13],
+				"input3": ["AILimiter",1.88]
+			},
+			"outputs": {
+				"output1": ["CrystalOscillator",1.88]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"IronCoatedCanister":
+		{
+			"name": "Iron Coated Canister",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["IronPlate",30],
+				"input2": ["CopperSheet",15]
+			},
+			"outputs": {
+				"output1": ["EmptyCanister",60]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"DilutedPackagedFuel":
+		{
+			"name": "Diluted Packaged Fuel",
+			"factory": "Refinery",
+			"inputs": {
+				"input1": ["HeavyOil",30],
+				"input2": ["PackagedWater",60]
+			},
+			"outputs": {
+				"output1": ["PackagedFuel",60]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"UraniumFuelUnit":
+		{
+			"name": "Uranium Fuel Unit",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["EncasedUraniumCell",20],
+				"input2": ["ElectromagneticControlRod",2],
+				"input3": ["CrystalOscillator",0.6],
+				"input4": ["Beacon",1.2]
+			},
+			"outputs": {
+				"output1": ["UraniumFuelRod",0.6]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"PlutoniumFuelUnit":
+		{
+			"name": "Plutonium Fuel Unit",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["EncasedPlutonium",10],
+				"input2": ["PressureConversionCube",0.5]
+			},
+			"outputs": {
+				"output1": ["PlutoniumFuelRod",0.5]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"FineBlackPowder":
+		{
+			"name": "Fine Black Powder",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["SulfurOre",7.5],
+				"input2": ["CompactedCoal",3.75]
+			},
+			"outputs": {
+				"output1": ["BlackPowder",15]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"SeismicNobelisk":
+		{
+			"name": "Seismic Nobelisk",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["BlackPowder",12],
+				"input2": ["SteelPipe",12],
+				"input3": ["CrystalOscillator",1.5]
+			},
+			"outputs": {
+				"output1": ["Nobelisk",6]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"CrystalBeacon":
+		{
+			"name": "Crystal Beacon",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["SteelBeam",2],
+				"input2": ["SteelPipe",8],
+				"input3": ["CrystalOscillator",0.5]
+			},
+			"outputs": {
+				"output1": ["Beacon",10]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"ElectromagneticConnectionRod":
+		{
+			"name": "Electromagnetic Connection Rod",
+			"factory": "Assembler",
+			"inputs": {
+				"input1": ["Stator",8],
+				"input2": ["HighSpeedConnector",4]
+			},
+			"outputs": {
+				"output1": ["ElectromagneticControlMod",8]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"InfusedUraniumCell":
+		{
+			"name": "Infused Uranium Cell",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["UraniumOre",25],
+				"input2": ["Silica",15],
+				"input3": ["SulfurOre",25],
+				"inpup4": ["Quickwire",75]
+			},
+			"outputs": {
+				"output1": ["EncasedUraniumCell",20]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"FertileUranium":
+		{
+			"name": "Fertile Uranium",
+			"factory": "Blender",
+			"inputs": {
+				"input1": ["UraniumOre",25],
+				"input2": ["UraniumWaste",25],
+				"input3": ["NitricAcid",15],
+				"inpup4": ["SulfuricAcid",25]
+			},
+			"outputs": {
+				"output1": ["NonFissileUranium",100],
+				"output2": ["Water",40]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"InstantPlutoniumCell":
+		{
+			"name": "Instant Plutonium Cell",
+			"factory": "ParticleAccelerator",
+			"inputs": {
+				"input1": ["NonFissileUranium",75],
+				"input2": ["AluminiumCasing",10]
+			},
+			"outputs": {
+				"output1": ["EncasedPlutoniumCell",10]
+			},
+			"enabled": false,
+			"priority": false,
+			"alternate": true
+		},
+	"Leaves":
+		{
+			"name": "Leaves",
+			"factory": "Hands",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["Leaves",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"Wood":
+		{
+			"name": "Wood",
+			"factory": "Chainsaw",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["Wood",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"Mycelia":
+		{
+			"name": "Mycelia",
+			"factory": "Hands",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["Mycelia",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"FlowerPetals":
+		{
+			"name": "Flower Petals",
+			"factory": "Hands",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["FlowerPetals",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"BluePowerSlug":
+		{
+			"name": "Blue Power Slug",
+			"factory": "Hands",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["BluePowerSlug",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"YellowPowerSlug":
+		{
+			"name": "Yellow Power Slug",
+			"factory": "Hands",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["YellowPowerSlug",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"PurplePowerSlug":
+		{
+			"name": "Purple Power Slug",
+			"factory": "Hands",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["PurplePowerSlug",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"FICSITCoupon":
+		{
+			"name": "FICSIT Coupon",
+			"factory": "AwesomeSink",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["FICSITCoupon",1]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"QuantumComputer":
+		{
+			"name": "Quantum Computer",
+			"factory": "Impossible",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["QuantumComputer",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"SuperpositionOscillator":
+		{
+			"name": "Superposition Oscillator",
+			"factory": "Impossible",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": ["SuperpositionOscillator",0]
+			},
+			"enabled": true,
+			"priority": true,
+			"alternate": false
+		},
+	"Beacon":
+		{
+			"name": "Beacon",
+			"factory": "Manufacturer",
+			"inputs": {
+				"input1": ["IronPlate",22.5],
+				"input2": ["IronRod",7.5],
+				"input3": ["Wire",112.5],
+				"input4": ["Cable",15]
+
+			},
+			"outputs": {
+				"output1": ["Beacon",7.5]
+			},
+			"enabled": true,
+			"priority": false,
+			"alternate": false
+		}
+}

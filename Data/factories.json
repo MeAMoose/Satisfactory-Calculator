@@ -1,0 +1,293 @@
+{
+	"MinerMk1":
+		{
+			"name": "Miner Mk.1",
+			"model": "Assets/Factories/Extraction_MinerMk1_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"MinerMk2":
+		{
+			"name": "Miner Mk.2",
+			"model": "Assets/Factories/Extraction_MinerMk2_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"MinerMk3":
+		{
+			"name": "Miner Mk.3",
+			"model": "Assets/Factories/Extraction_MinerMk3_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"OilExtractor":
+		{
+			"name": "Oil Extractor",
+			"model": "Assets/Factories/Extraction_OilPump_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "liquid"
+			}
+		},
+	"WaterExtractor":
+		{
+			"name": "Water Extractor",
+			"model": "Assets/Factories/Extraction_Waterpump_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "liquid"
+			}
+		},
+	"ResourceWellPressurizer":
+		{
+			"name": "Resource Well Pressurizer",
+			"model": "Assets/Factories/Extraction_Smasher_256.png",
+			"inputs": {
+			},
+			"outputs": {
+			}
+		},
+	"ResourceWellExtractor":
+		{
+			"name": "Resource Well Extractor",
+			"model": "Assets/Factories/Extraction_Extractor_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "liquid"
+			}
+		},
+	"Smelter":
+		{
+			"name": "Smelter",
+			"model": "Assets/Factories/Production_SmelterMk1_256.png",
+			"inputs": {
+				"input1": "item"
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Foundry":
+		{
+			"name": "Resource Well Extractor",
+			"model": "Assets/Factories/Production_Foundry_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "item"
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Constructor":
+		{
+			"name": "Constructor",
+			"model": "Assets/Factories/Production_ConstructorMk1_256.png",
+			"inputs": {
+				"input1": "item"
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Assembler":
+		{
+			"name": "Assembler",
+			"model": "Assets/Factories/Production_AssemblerMk1_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "item"
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Manufacturer":
+		{
+			"name": "Manufacturer",
+			"model": "Assets/Factories/Production_Manufacturer_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "item",
+				"input3": "item",
+				"input4": "item"
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Refinery":
+		{
+			"name": "Refinery",
+			"model": "Assets/Factories/Production_OilRefinery_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "liquid"
+			},
+			"outputs": {
+				"output1": "item",
+				"output2": "liquid"
+			}
+		},
+	"Packager":
+		{
+			"name": "Packager",
+			"model": "Assets/Factories/Production_Packager_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "liquid"
+			},
+			"outputs": {
+				"output1": "item",
+				"output2": "liquid"
+			}
+		},
+	"Blender":
+		{
+			"name": "Blender",
+			"model": "Assets/Factories/Production_Blender_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "item",
+				"input3": "liquid",
+				"input4": "liquid"
+			},
+			"outputs": {
+				"output1": "item",
+				"output2": "liquid"
+			}
+		},
+	"ParticleAccelerator":
+		{
+			"name": "Particle Accelerator",
+			"model": "Assets/Factories/Production_HadronCollider_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "item",
+				"input3": "liquid"
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"BiomassBurner":
+		{
+			"name": "Biomass Burner",
+			"model": "Assets/Factories/PowerGenerators_BiomassGenerator_256.png",
+			"inputs": {
+				"input1": "item"
+			},
+			"outputs": {
+				"output1": "power"
+			}
+		},
+	"CoalGenerator":
+		{
+			"name": "Coal Generator",
+			"model": "Assets/Factories/PowerGenerators_CoalGenerator_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "liquid"
+			},
+			"outputs": {
+				"output1": "power"
+			}
+		},
+	"FuelGenerator":
+		{
+			"name": "Fuel Generator",
+			"model": "Assets/Factories/PowerGenerators_FuelGenerator_256.png",
+			"inputs": {
+				"input1": "liquid"
+			},
+			"outputs": {
+				"output1": "power"
+			}
+		},
+	"GeothermalGenerator":
+		{
+			"name": "Geothermal Generator",
+			"model": "Assets/Factories/PowerGenerators_GeoThermalPowerGenerator_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "power"
+			}
+		},
+	"NuclearPowerPlant":
+		{
+			"name": "Nuclear Power Plant",
+			"model": "Assets/Factories/PowerGenerators_NuclearPowerplant_256.png",
+			"inputs": {
+				"input1": "item",
+				"input2": "liquid"
+			},
+			"outputs": {
+				"output1": "item",
+				"output2": "power"
+			}
+		},
+	"AwesomeSink":
+		{
+			"name": "AWESOME Sink",
+			"model": "Assets/Factories/Misc_AwesomeSink_256.png",
+			"inputs": {
+				"input1": "item"
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Chainsaw":
+		{
+			"name": "Chainsaw",
+			"model": "Assets/Factories/Manual_Chainsaw_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"XenoZapper":
+		{
+			"name": "Xeno-Zapper",
+			"model": "Assets/Factories/Manual_XenoZapper_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Hands":
+		{
+			"name": "Hands",
+			"model": "Assets/Factories/Manual_Hands_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		},
+	"Impossible":
+		{
+			"name": "Impossible - Unachievable",
+			"model": "Assets/Factories/Misc_Impossible_256.png",
+			"inputs": {
+			},
+			"outputs": {
+				"output1": "item"
+			}
+		}
+}

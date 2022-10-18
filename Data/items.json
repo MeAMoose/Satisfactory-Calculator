@@ -1,0 +1,704 @@
+{
+	"Limestone":
+		{
+			"name": "Limestone",
+			"model": "Assets/Items/Ore_Stone_256.png",
+			"type": "item"
+		},
+	"IronOre":
+		{
+			"name": "Iron Ore",
+			"model": "Assets/Items/Ore_IronOre_256.png",
+			"type": "item"
+		},
+	"CopperOre":
+		{
+			"name": "Copper Ore",
+			"model": "Assets/Items/Ore_CopperOre_256.png",
+			"type": "item"
+		},
+	"CateriumOre":
+		{
+			"name": "Caterium Ore",
+			"model": "Assets/Items/Ore_CateriumOre_256.png",
+			"type": "item"
+		},
+	"CoalOre":
+		{
+			"name": "Coal",
+			"model": "Assets/Items/Ore_CoalOre_256.png",
+			"type": "item"
+		},
+	"QuartzOre":
+		{
+			"name": "Raw Quartz",
+			"model": "Assets/Items/Ore_QuartzOre_256.png",
+			"type": "item"
+		},
+	"SulfurOre":
+		{
+			"name": "Sulfur",
+			"model": "Assets/Items/Ore_SulfurOre_256.png",
+			"type": "item"
+		},
+	"Bauxite":
+		{
+			"name": "Bauxite",
+			"model": "Assets/Items/Ore_BauxiteOre_256.png",
+			"type": "item"
+		},
+	"SAMOre":
+		{
+			"name": "S.A.M Ore",
+			"model": "Assets/Items/Ore_SAMOre_256.png",
+			"type": "item"
+		},
+	"UraniumOre":
+		{
+			"name": "Uranium",
+			"model": "Assets/Items/Ore_UraniumOre_256.png",
+			"type": "item"
+		},
+	"IronIngot":
+		{
+			"name": "Iron Ingot",
+			"model": "Assets/Items/Ingot_Iron_256.png",
+			"type": "item"
+		},
+	"CopperIngot":
+		{
+			"name": "Copper Ingot",
+			"model": "Assets/Items/Ingot_Copper_256.png",
+			"type": "item"
+		},
+	"CateriumIngot":
+		{
+			"name": "Caterium Ingot",
+			"model": "Assets/Items/Ingot_Caterium_256.png",
+			"type": "item"
+		},
+	"SteelIngot":
+		{
+			"name": "Steel Ingot",
+			"model": "Assets/Items/Ingot_Steel_256.png",
+			"type": "item"
+		},
+	"AluminiumIngot":
+		{
+			"name": "Aluminium Ingot",
+			"model": "Assets/Items/Ingot_Aluminium_256.png",
+			"type": "item"
+		},
+	"Concrete":
+		{
+			"name": "Concrete",
+			"model": "Assets/Items/Minerals_Concrete_256.png",
+			"type": "item"
+		},
+	"QuartzCrystal":
+		{
+			"name": "Quartz Crystals",
+			"model": "Assets/Items/Minerals_QuartzCrystals_256.png",
+			"type": "item"
+		},
+	"Silica":
+		{
+			"name": "Silica",
+			"model": "Assets/Items/Minerals_Silica_256.png",
+			"type": "item"
+		},
+	"CopperPowder":
+		{
+			"name": "Copper Powder",
+			"model": "Assets/Items/Minerals_CopperPowder_256.png",
+			"type": "item"
+		},
+	"PolymerResin":
+		{
+			"name": "Polymer Resin",
+			"model": "Assets/Items/Minerals_PolymerResin_256.png",
+			"type": "item"
+		},
+	"PetroleumCoke":
+		{
+			"name": "Petroleum Coke",
+			"model": "Assets/Items/Minerals_PetroleumCoke_256.png",
+			"type": "item"
+		},
+	"AluminiumScrap":
+		{
+			"name": "Aluminium Scrap",
+			"model": "Assets/Items/Minerals_AluminiumScrap_256.png",
+			"type": "item"
+		},
+	"Water":
+		{
+			"name": "Water",
+			"model": "Assets/Items/Liquid_Water_256.png",
+			"type": "liquid"
+		},
+	"CrudeOil":
+		{
+			"name": "Crude Oil",
+			"model": "Assets/Items/Liquid_CrudeOil_256.png",
+			"type": "liquid"
+		},
+	"HeavyOil":
+		{
+			"name": "Heavy Oil Residue",
+			"model": "Assets/Items/Liquid_HeavyOilResidue_256.png",
+			"type": "liquid"
+		},
+	"Fuel":
+		{
+			"name": "Fuel",
+			"model": "Assets/Items/Liquid_Fuel_256.png",
+			"type": "liquid"
+		},
+	"LiquidBiofuel":
+		{
+			"name": "Liquid Biofuel",
+			"model": "Assets/Items/Liquid_Biofuel_256.png",
+			"type": "liquid"
+		},
+	"Turbofuel":
+		{
+			"name": "Turbofuel",
+			"model": "Assets/Items/Liquid_TurboFuel_256.png",
+			"type": "liquid"
+		},
+	"Alumina":
+		{
+			"name": "Alumina Solution",
+			"model": "Assets/Items/Liquid_Alumina_256.png",
+			"type": "liquid"
+		},
+	"SulfuricAcid":
+		{
+			"name": "Sulfuric Acid",
+			"model": "Assets/Items/Liquid_SulfuricAcid_256.png",
+			"type": "liquid"
+		},
+	"NitricAcid":
+		{
+			"name": "Nitric Acid",
+			"model": "Assets/Items/Liquid_NitricAcid_256.png",
+			"type": "liquid"
+		},
+	"NitrogenGas":
+		{
+			"name": "Nitrogen Gas",
+			"model": "Assets/Items/Liquid_NitricAcidGas_256.png",
+			"type": "liquid"
+		},
+	"IronRod":
+		{
+			"name": "Iron Rod",
+			"model": "Assets/Items/StandardParts_IronRods_256.png",
+			"type": "item"
+		},
+	"Screws":
+		{
+			"name": "Screws",
+			"model": "Assets/Items/StandardParts_IronScrews_256.png",
+			"type": "item"
+		},
+	"IronPlate":
+		{
+			"name": "Iron Plate",
+			"model": "Assets/Items/StandardParts_IronPlates_256.png",
+			"type": "item"
+		},
+	"ReinforcedIronPlate":
+		{
+			"name": "Reinforced Iron Plate",
+			"model": "Assets/Items/StandardParts_ReinforcedIronPlates_256.png",
+			"type": "item"
+		},
+	"CopperSheet":
+		{
+			"name": "Copper Sheet",
+			"model": "Assets/Items/StandardParts_CopperSheet_256.png",
+			"type": "item"
+		},
+	"AluminiumSheet":
+		{
+			"name": "Alclad Aluminium Sheet",
+			"model": "Assets/Items/StandardParts_AluminiumSheet_256.png",
+			"type": "item"
+		},
+	"AluminiumCasing":
+		{
+			"name": "Aluminium Casing",
+			"model": "Assets/Items/StandardParts_AluminiumCasing_256.png",
+			"type": "item"
+		},
+	"SteelPipe":
+		{
+			"name": "Steel Pipe",
+			"model": "Assets/Items/StandardParts_SteelPipe_256.png",
+			"type": "item"
+		},
+	"SteelBeam":
+		{
+			"name": "Steel Beam",
+			"model": "Assets/Items/StandardParts_SteelBeam_256.png",
+			"type": "item"
+		},
+	"EncasedIndustrialBeam":
+		{
+			"name": "Encased Industrial Beam",
+			"model": "Assets/Items/StandardParts_EncasedSteelBeam_256.png",
+			"type": "item"
+		},
+	"Fabric":
+		{
+			"name": "Fabric",
+			"model": "Assets/Items/StandardParts_Fabric_256.png",
+			"type": "item"
+		},
+	"ModularFrame":
+		{
+			"name": "Modular Frame",
+			"model": "Assets/Items/StandardParts_ModularFrame_256.png",
+			"type": "item"
+		},
+	"HeavyModularFrame":
+		{
+			"name": "Heavy Modular Frame",
+			"model": "Assets/Items/StandardParts_ModularFrameHeavy_256.png",
+			"type": "item"
+		},
+	"FusedModularFrame":
+		{
+			"name": "Fused Modular Frame",
+			"model": "Assets/Items/StandardParts_FusedModularFrame_256.png",
+			"type": "item"
+		},
+	"Plastic":
+		{
+			"name": "Plastic",
+			"model": "Assets/Items/StandardParts_Plastic_256.png",
+			"type": "item"
+		},
+	"Rubber":
+		{
+			"name": "Rubber",
+			"model": "Assets/Items/StandardParts_Rubber_256.png",
+			"type": "item"
+		},
+	"Rotor":
+		{
+			"name": "Rotor",
+			"model": "Assets/Items/IndustrialParts_Rotor_256.png",
+			"type": "item"
+		},
+	"Stator":
+		{
+			"name": "Stator",
+			"model": "Assets/Items/IndustrialParts_Stator_256.png",
+			"type": "item"
+		},
+	"Battery":
+		{
+			"name": "Battery",
+			"model": "Assets/Items/IndustrialParts_Battery_256.png",
+			"type": "item"
+		},
+	"Motor":
+		{
+			"name": "Motor",
+			"model": "Assets/Items/IndustrialParts_Motor_256.png",
+			"type": "item"
+		},
+	"HeatSink":
+		{
+			"name": "Heat Sink",
+			"model": "Assets/Items/IndustrialParts_Heatsink_256.png",
+			"type": "item"
+		},
+	"CoolingSystem":
+		{
+			"name": "Cooling System",
+			"model": "Assets/Items/IndustrialParts_CoolingSystem_256.png",
+			"type": "item"
+		},
+	"TurboMotor":
+		{
+			"name": "Turbo Motor",
+			"model": "Assets/Items/IndustrialParts_TurboMotor_256.png",
+			"type": "item"
+		},
+	"Wire":
+		{
+			"name": "Wire",
+			"model": "Assets/Items/Electronics_Wire_256.png",
+			"type": "item"
+		},
+	"Cable":
+		{
+			"name": "Cable",
+			"model": "Assets/Items/Electronics_Cables_256.png",
+			"type": "item"
+		},
+	"Quickwire":
+		{
+			"name": "Quickwire",
+			"model": "Assets/Items/Electronics_Quickwire_256.png",
+			"type": "item"
+		},
+	"CircuitBoard":
+		{
+			"name": "Circuit Board",
+			"model": "Assets/Items/Electronics_CircuitBoard_256.png",
+			"type": "item"
+		},
+	"AILimiter":
+		{
+			"name": "AI Limiter",
+			"model": "Assets/Items/Electronics_AILimiter_256.png",
+			"type": "item"
+		},
+	"HighSpeedConnector":
+		{
+			"name": "High Speed Connector",
+			"model": "Assets/Items/Electronics_HighSpeedConnector_256.png",
+			"type": "item"
+		},
+	"Computer":
+		{
+			"name": "Computer",
+			"model": "Assets/Items/Communications_Computer_256.png",
+			"type": "item"
+		},
+	"Supercomputer":
+		{
+			"name": "Super Computer",
+			"model": "Assets/Items/Communications_SuperComputer_256.png",
+			"type": "item"
+		},
+	"QuantumComputer":
+		{
+			"name": "Quantum Computer",
+			"model": "Assets/Items/Communications_QuantumComputer_256.png",
+			"type": "item"
+		},
+	"RadioControlUnit":
+		{
+			"name": "Radio Control Unit",
+			"model": "Assets/Items/Communications_RadioControlUnit_256.png",
+			"type": "item"
+		},
+	"CrystalOscillator":
+		{
+			"name": "Crystal Oscillator",
+			"model": "Assets/Items/Communications_CrystalOscillator_256.png",
+			"type": "item"
+		},
+	"SuperpositionOscillator":
+		{
+			"name": "Superposition Oscillator",
+			"model": "Assets/Items/Communications_SuperPositionOscillator_256.png",
+			"type": "item"
+		},
+	"EmptyCanister":
+		{
+			"name": "Empty Canister",
+			"model": "Assets/Items/Containers_EmptyCannister_256.png",
+			"type": "item"
+		},
+	"EmptyFluidTank":
+		{
+			"name": "Empty Fluid Tank",
+			"model": "Assets/Items/Containers_PressureTank_256.png",
+			"type": "item"
+		},
+	"PressureConversionCube":
+		{
+			"name": "Pressure Conversion Cube",
+			"model": "Assets/Items/Containers_ConversionCube_256.png",
+			"type": "item"
+		},
+	"PackagedWater":
+		{
+			"name": "Packaged Water",
+			"model": "Assets/Items/Containers_PackagedWater_256.png",
+			"type": "item"
+		},
+	"PackagedAlumina":
+		{
+			"name": "Packaged Alumina Solution",
+			"model": "Assets/Items/Containers_PackagedAluminaSolution_256.png",
+			"type": "item"
+		},
+	"PackagedSulfuricAcid":
+		{
+			"name": "Packaged Sulfuric Acid",
+			"model": "Assets/Items/Containers_PackagedSulphuricAcid_256.png",
+			"type": "item"
+		},
+	"PackagedNitricAcid":
+		{
+			"name": "Packaged Nitric Acid",
+			"model": "Assets/Items/Containers_PackagedNitricAcid_256.png",
+			"type": "item"
+		},
+	"PackagedNitrogenGas":
+		{
+			"name": "Packaged Nitrogen Gas",
+			"model": "Assets/Items/Containers_PackagedNitrogen_256.png",
+			"type": "item"
+		},
+	"Leaves":
+		{
+			"name": "Leaves",
+			"model": "Assets/Items/Fuels_Leaves_256.png",
+			"type": "item"
+		},
+	"Mycelia":
+		{
+			"name": "Mycelia",
+			"model": "Assets/Items/Fuels_Mycelia_256.png",
+			"type": "item"
+		},
+	"FlowerPetals":
+		{
+			"name": "Flower Petals",
+			"model": "Assets/Items/Fuels_FlowerPetals_Final_256.png",
+			"type": "item"
+		},
+	"Wood":
+		{
+			"name": "Wood",
+			"model": "Assets/Items/Fuels_Wood_256.png",
+			"type": "item"
+		},
+	"Biomass":
+		{
+			"name": "Biomass",
+			"model": "Assets/Items/Fuels_Biomass_Final_256.png",
+			"type": "item"
+		},
+	"CompactedCoal":
+		{
+			"name": "Compacted Coal",
+			"model": "Assets/Items/Fuels_CompactedCoal_256.png",
+			"type": "item"
+		},
+	"PackagedHeavyOil":
+		{
+			"name": "Packaged Heavy Oil Residue",
+			"model": "Assets/Items/Fuels_OilResidue_256.png",
+			"type": "item"
+		},
+	"SolidBiofuel":
+		{
+			"name": "Solid Biofuel",
+			"model": "Assets/Items/Fuels_SolidBiofuel_256.png",
+			"type": "item"
+		},
+	"PackagedFuel":
+		{
+			"name": "Packaged Fuel",
+			"model": "Assets/Items/Fuels_Fuel_256.png",
+			"type": "item"
+		},
+	"PackagedLiquidBiofuel":
+		{
+			"name": "Packaged Liquid Biofuel",
+			"model": "Assets/Items/Fuels_LiquidBiofuel_256.png",
+			"type": "item"
+		},
+	"PackagedTurbofuel":
+		{
+			"name": "Packaged Turbofuel",
+			"model": "Assets/Items/Fuels_TurboFuel_256.png",
+			"type": "item"
+		},
+	"UraniumFuelRod":
+		{
+			"name": "Uranium Fuel Rod",
+			"model": "Assets/Items/Fuels_NuclearFuelRod_256.png",
+			"type": "item"
+		},
+	"PlutoniumFuelRod":
+		{
+			"name": "Biomass",
+			"model": "Assets/Items/Fuels_PlutoniumFuelRod_256.png",
+			"type": "item"
+		},
+	"BlackPowder":
+		{
+			"name": "Black Powder",
+			"model": "Assets/Items/Consumables_Gunpowder_256.png",
+			"type": "item"
+		},
+	"Nobelisk":
+		{
+			"name": "Nobelisk",
+			"model": "Assets/Items/Consumables_Explosive_256.png",
+			"type": "item"
+		},
+	"GasFilter":
+		{
+			"name": "Gas Filter",
+			"model": "Assets/Items/Consumables_GasMaskFilter_256.png",
+			"type": "item"
+		},
+	"ColorCartridge":
+		{
+			"name": "Color Cartridge",
+			"model": "Assets/Items/Consumables_ColorCartridge_256.png",
+			"type": "item"
+		},
+	"RifleCartridge":
+		{
+			"name": "Rifle Cartridge",
+			"model": "Assets/Items/Consumables_Rifle_Magazine_256.png",
+			"type": "item"
+		},
+	"SpikedRebar":
+		{
+			"name": "Spiked Rebar",
+			"model": "Assets/Items/Consumables_SpikedRebar_256.png",
+			"type": "item"
+		},
+	"Beacon":
+		{
+			"name": "Beacon",
+			"model": "Assets/Items/Consumables_Beacon_256.png",
+			"type": "item"
+		},
+	"HazmatFilter":
+		{
+			"name": "Iodine Infused Filter",
+			"model": "Assets/Items/Consumables_HazmatFilter_256.png",
+			"type": "item"
+		},
+	"ElectromagneticControlRod":
+		{
+			"name": "Electromagnetic Control Mod",
+			"model": "Assets/Items/Nuclear_ElectromagneticControlRod_256.png",
+			"type": "item"
+		},
+	"EncasedUraniumCell":
+		{
+			"name": "Encased Uranium Cell",
+			"model": "Assets/Items/Nuclear_NuclearCell_256.png",
+			"type": "item"
+		},
+	"NonFissileUranium":
+		{
+			"name": "Non-fissile Uranium",
+			"model": "Assets/Items/Nuclear_NonFissileUranium_256.png",
+			"type": "item"
+		},
+	"PlutoniumPellet":
+		{
+			"name": "Plutonium Pellet",
+			"model": "Assets/Items/Nuclear_PlutoniumPellet_256.png",
+			"type": "item"
+		},
+	"EncasedPlutoniumCell":
+		{
+			"name": "Encased Plutonium Cell",
+			"model": "Assets/Items/Nuclear_EncasedPlutoniumCell_256.png",
+			"type": "item"
+		},
+	"UraniumWaste":
+		{
+			"name": "Uranium Waste",
+			"model": "Assets/Items/Nuclear_NuclearWaste_256.png",
+			"type": "item"
+		},
+	"PlutoniumWaste":
+		{
+			"name": "Plutonium Waste",
+			"model": "Assets/Items/Nuclear_PlutoniumWaste_256.png",
+			"type": "item"
+		},
+	"BluePowerSlug":
+		{
+			"name": "Blue Power Slug",
+			"model": "Assets/Items/Special_PowerSlugGreen_256.png",
+			"type": "item"
+		},
+	"YellowPowerSlug":
+		{
+			"name": "Yellow Power Slug",
+			"model": "Assets/Items/Special_PowerSlugYellow_256.png",
+			"type": "item"
+		},
+	"PurplePowerSlug":
+		{
+			"name": "Purple Power Slug",
+			"model": "Assets/Items/Special_PowerSlugPurple_256.png",
+			"type": "item"
+		},
+	"PowerShard":
+		{
+			"name": "Power Shard",
+			"model": "Assets/Items/Special_PowerShard_256.png",
+			"type": "item"
+		},
+	"FICSITCoupon":
+		{
+			"name": "FICSITCoupon",
+			"model": "Assets/Items/Special_Ficsit_Coupon_256.png",
+			"type": "item"
+		},
+	"SmartPlating":
+		{
+			"name": "Smart Plating",
+			"model": "Assets/Items/ProjectParts_SmartPlating_256.png",
+			"type": "item"
+		},
+	"VersatileFramework":
+		{
+			"name": "VersatileFramework",
+			"model": "Assets/Items/ProjectParts_VersatileFramework_256.png",
+			"type": "item"
+		},
+	"AutomatedWiring":
+		{
+			"name": "Automated Wiring",
+			"model": "Assets/Items/ProjectParts_AutomaticWiring_256.png",
+			"type": "item"
+		},
+	"ModularEngine":
+		{
+			"name": "Modular Engine",
+			"model": "Assets/Items/ProjectParts_ModularEngine_256.png",
+			"type": "item"
+		},
+	"AdaptiveControlUnit":
+		{
+			"name": "Adaptive Control Unit",
+			"model": "Assets/Items/ProjectParts_AdaptiveControlUnit_256.png",
+			"type": "item"
+		},
+	"AssemblyDirectorSystem":
+		{
+			"name": "Assembly Director System",
+			"model": "Assets/Items/ProjectParts_AssemblyDirectorSystem_256.png",
+			"type": "item"
+		},
+	"MagneticFieldGenerator":
+		{
+			"name": "Magnetic Field Generator",
+			"model": "Assets/Items/ProjectParts_MagneticFieldGenerator_256.png",
+			"type": "item"
+		},
+	"ThermalPropulsionRocket":
+		{
+			"name": "Thermal Propulsion Rocket",
+			"model": "Assets/Items/ProjectParts_ThermalPropulsionRocket_256.png",
+			"type": "item"
+		},
+	"NuclearPasta":
+		{
+			"name": "NuclearPasta",
+			"model": "Assets/Items/ProjectParts_NuclearPasta_256.png",
+			"type": "item"
+		}
+}
